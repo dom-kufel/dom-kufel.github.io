@@ -15,8 +15,8 @@ permalink: /publications/
     <strong>Main points:</strong> Experimental paper on the first-to-date detection of spin squeezing in a solid state platform.</span>
 </div>
 </details>
-<span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span><br />
-<a href="https://arxiv.org/pdf/2503.14585">PDF</a>
+<span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span>\
+arXiv preprint [PDF](https://arxiv.org/abs/2405.17541)
 
 <details>
 <summary>Approximately-symmetric neural networks for quantum spin liquids </summary>

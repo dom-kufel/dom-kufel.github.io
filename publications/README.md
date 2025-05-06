@@ -16,7 +16,7 @@ permalink: /publications/
 </div>
 </details>
 <span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span>\
-arXiv preprint [PDF](https://arxiv.org/abs/2405.17541)
+arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585)
 
 <details>
 <summary>Approximately-symmetric neural networks for quantum spin liquids </summary>

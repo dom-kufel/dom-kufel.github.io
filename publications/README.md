@@ -9,6 +9,15 @@ permalink: /publications/
 ---
 
 <details>
+<summary>Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond </summary>
+<div>
+    <p><span style="font-size:0.85em;"><strong>Field:</strong> Quantum Many-Body Physics <br /> <strong>Experimental paper on the first-to-date detection of spin squeezing in a solid state platform. </span></p>
+  </div>
+</details>
+<p><span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>,, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span><br />
+<a href="https://arxiv.org/pdf/2503.14585">PDF</a></p>
+
+<details>
 <summary>Approximately-symmetric neural networks for quantum spin liquids </summary>
 <div markdown="1">
 <span style="font-size:0.85em;">**Field:** Quantum Many-Body Physics, AI <br> **Main points:** Constructed tailor-made, scalable and interpretable neural network architectures for studying quantum spin liquid problems.  </span>

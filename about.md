@@ -16,7 +16,8 @@ redirect_from:
 
 <!-- <p style="text-align:center;"><img src="/assets/img/prof_pic.jpg" width="150"/></p> -->
 
-I am a PhD student at Harvard in many-body quantum physics. I am fortunate to be advised by [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in theoretical out-of-equilibrium many-body physics, topological phases and aspects of AI in many-body physics.
+I am a PhD student at Harvard in many-body quantum physics. I am very fortunate to be advised by [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in exotic quantum phases of matter, 
+out-of-equilibrium many-body physics and using AI to simulate quantum physics. 
 
 When I’m not doing physics, I’m usually at the gym, out for a run, swimming, or picking away at my banjo. I also serve as president of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 

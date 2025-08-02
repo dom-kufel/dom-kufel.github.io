@@ -16,7 +16,7 @@ permalink: /publications/
 </div>
 </details>
 <span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span>\
-arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585)
+arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585), accepted for publication in <em>Nature</em>
 
 <details>
 <summary>Approximately-symmetric neural networks for quantum spin liquids </summary>
@@ -25,7 +25,7 @@ arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585)
   </div>
 </details>
 <p><span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span><br />
-<a href="https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph"><em>Physical Review Letters 135, 056702 (Editor's Suggestion)</em></a></p> <a href="https://arxiv.org/pdf/2405.17541">PDF</a></p>
+<a href="https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph"><em>Physical Review Letters 135, 056702 (Editor's Suggestion)</em></a><a href="https://arxiv.org/pdf/2405.17541">PDF</a></p>
 
 <details>
 <summary>Skier and loop the loop with friction </summary>
@@ -102,11 +102,5 @@ arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585)
 
 
 <!-- <details>
-  <summary>Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond </summary>
-  <div>
-      <p><span style="font-size:0.85em;"><strong>Field:</strong> Quantum Many-Body Physics <br /> <strong>Experimental paper on the first-to-date detection of spin squeezing in a solid state platform. </span></p>
-    </div>
-  </details>
-  <p><span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>,, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span><br />
-  (accepted for publication in <em>Nature </em>) <a href="https://arxiv.org/pdf/2503.14585">PDF</a></p>
+
  -->

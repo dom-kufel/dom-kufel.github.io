@@ -21,7 +21,7 @@ out-of-equilibrium many-body physics and using AI to simulate quantum physics.
 
 When I’m not doing physics, I’m usually at the gym, out for a run, swimming, or picking away at my banjo. I also serve as President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 
-In the past, I have studied in the capital of England at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
+In the past, I have studied in the UK at UCL and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 
 > **Contact:** dkufel [at] g.harvard.edu
 {:.lead}

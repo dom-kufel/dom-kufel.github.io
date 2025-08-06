@@ -15,7 +15,7 @@ permalink: /publications/
     <strong>Main points:</strong> Experimental paper on the first-to-date detection of spin squeezing in a solid state platform.</span>
 </div>
 </details>
-<span style="color:grey">W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span>\
+<span style="color:grey">W. Wu* , E. Davis* , L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span>\
 arXiv preprint [PDF](https://arxiv.org/pdf/2503.14585), accepted for publication in <em>Nature</em>
 
 <details>

@@ -7,7 +7,7 @@ permalink: /outreach/
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/img/outreach/american_centre.jpg" alt="Outreach activities" style="max-width: 100%; height: auto; border-radius: 8px;">
-  <p><em>Visual highlights from our outreach activities</em></p>
+  <p><em>Highlight from an outreach activity (photo courtesy of American Corner in Lublin)</em></p>
 </div>
 
 ## Unsorted list of outreach talks and/or associated articles

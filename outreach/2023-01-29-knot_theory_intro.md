@@ -4,6 +4,11 @@ title: Quick intro to the knotty subject
 description: This is a brief, rough, sketch of the workshops I conducted for gifted high-school students in Lublin, Poland, Dec 2022.
 ---
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/img/fall.jpeg" alt="Knot theory workshop" style="max-width: 100%; height: auto; border-radius: 8px;">
+  <p><em>Workshop activities and demonstrations</em></p>
+</div>
+
 <section><h2>Intro</h2>
 
 <p>No doubt: we all had to untie some annoyingly tangled knot at some point. So here's a fun problem: Is there any way to rigorously tell if one knot is more difficult to be untangled than another? Or even if two unlike looking knots are the same or actually different? You might be tempted to think that in practice it is easy to tell. Then consider the (un)knots in Fig. 1 and Fig. 2:</p>

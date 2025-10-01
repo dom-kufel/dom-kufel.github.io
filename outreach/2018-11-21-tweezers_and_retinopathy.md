@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When physicists and doctors meet to resolve the roots of the leading cause of blindness.
-description: This is a very short popular-science article I have written for my undergrad scientific communication class in Nov 2018.
+description: This is a very short popular-science article which was part of the class on effective communication at UCL.
 ---
 
 <p><font size="+1">Experiments involving stretching of the blood cells using laser light suggest that blindness in diabetes may be caused by stiffer blood cells.</font></p> <br> <br>

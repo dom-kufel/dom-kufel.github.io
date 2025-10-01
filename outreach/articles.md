@@ -10,7 +10,7 @@ permalink: /outreach/
   <p><em>Highlight from an outreach activity (photo courtesy of American Corner in Lublin)</em></p>
 </div>
 
-## Unsorted list of outreach talks and/or associated articles
+## Some outreach talks I've given
 * [Knots]{:.heading.flip-title} --- Simple introduction to knot theory - targeted for high-schoolers.
 * [Chicken]{:.heading.flip-title} --- "How to cook delicious spherical chicken ft. thermodynamics" - targeted for freshmen.
 * [Tweezers]{:.heading.flip-title} --- Optical tweezers to understand the leading cause of blindness  - targeted for virtually anyone.

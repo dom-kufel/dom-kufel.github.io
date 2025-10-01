@@ -11,7 +11,7 @@ permalink: /publications/
 <details>
 <summary>Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond</summary>
 <div>
-    <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Many-Body Physics <br />
+    <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Sensing <br />
     <strong>Main points:</strong> Experimental paper on the first-to-date detection of spin squeezing in a solid state platform.</span>
 </div>
 </details>
@@ -22,7 +22,7 @@ permalink: /publications/
 <details>
 <summary>Approximately-symmetric neural networks for quantum spin liquids </summary>
 <div>
-    <p><span style="font-size:0.85em;"><strong>Field:</strong> Quantum Many-Body Physics <br /> <strong>Main points:</strong> Constructed tailor-made, scalable and interpretable neural network architectures for studying quantum spin liquid problems.  </span></p>
+    <p><span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br /> <strong>Main points:</strong> Constructed tailor-made, scalable and interpretable neural network architectures for studying quantum spin liquid problems.  </span></p>
   </div>
 </details>
 <p><span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span><br />
@@ -49,7 +49,7 @@ permalink: /publications/
 <details>
 <summary>Online Learning and matching for resource allocation problems </summary>
 <div markdown="1">
-<span style="font-size:0.85em;">**Field:** Machine Learning <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied these algorithms to the traffic-shaping problem. </span>
+<span style="font-size:0.85em;">**Field:** AI <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied these algorithms to the traffic-shaping problem. </span>
 </div>
 </details>
 <span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span>\

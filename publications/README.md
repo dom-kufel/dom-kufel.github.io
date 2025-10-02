@@ -26,7 +26,7 @@ permalink: /publications/
   </div>
 </details>
 <span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span><br />
-[*Physical Review Letters 135, 056702 (Editor's Suggestion)*](https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph) [PDF](https://arxiv.org/pdf/2405.17541)
+[*Physical Review Letters 135, 056702 (Editor's Suggestion).*](https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph) [PDF](https://arxiv.org/pdf/2405.17541)
 
 <details>
 <summary>Skier and loop the loop with friction </summary>

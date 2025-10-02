@@ -25,7 +25,7 @@ permalink: /publications/
     <p><span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br /> <strong>Main points:</strong> Constructed tailor-made, scalable and interpretable neural network architectures for studying quantum spin liquid problems.  </span></p>
   </div>
 </details>
-<span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span>\
+<span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span><br />
 [*Physical Review Letters 135, 056702 (Editor's Suggestion)*](https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph) [PDF](https://arxiv.org/pdf/2405.17541)
 
 <details>

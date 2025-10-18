@@ -9,6 +9,17 @@ permalink: /publications/
 ---
 
 <details>
+<summary>Hardness of recognizing phases of matter</summary>
+<div>
+    <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Computing & Condensed Matter <br />
+    <strong>Main points:</strong> Shown that distinguishing quantum phases of matter is exponentially hard in correlation length. </span>
+</div>
+</details>
+<p><span style="color:grey">T. Schuster*, <ins>D. Kufel*</ins>, N. Yao, H. Huang (2025)</span><br />
+<a href="https://arxiv.org/abs/2510.08503"><em>arXiv:2510.08503</em></a> <a href="https://arxiv.org/pdf/2510.08503">PDF</a></p>
+
+
+<details>
 <summary>Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond</summary>
 <div>
     <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Sensing <br />

@@ -12,7 +12,7 @@ permalink: /publications/
 <summary>Hardness of recognizing phases of matter</summary>
 <div>
     <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Computing & Condensed Matter <br />
-    <strong>Main points:</strong> Shown that distinguishing quantum phases of matter is exponentially hard in correlation length. </span>
+    <strong>Main points:</strong> Proven that distinguishing quantum phases of matter is exponentially hard in correlation length. This sets limits on capabilities of any quantum AI agents for phase recognition task. </span>
 </div>
 </details>
 <p><span style="color:grey">T. Schuster*, <ins>D. Kufel*</ins>, N. Yao, H. Huang (2025)</span><br />

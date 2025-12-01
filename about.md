@@ -22,7 +22,7 @@ Recently, I also joined [Periodic Labs](https://techcrunch.com/2025/09/30/former
 
 When I’m not grinding, I’m usually at the gym, out for a run, cycling, or enjoying nature. I also serve as President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 
-In the past, I have studied in at University College London and at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
+In the past, I have studied at the University College London and worked at the [London Centre for Nanotechnology](https://www.london-nano.com/). I graduated with master's degrees in Physics and Quantum Technologies. I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 
 > **Contact:** dkufel [at] g.harvard.edu
 {:.lead}

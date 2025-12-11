@@ -9,6 +9,18 @@ permalink: /publications/
 ---
 
 <details>
+<summary>Optimizing the dynamical preparation of quantum spin lakes on the ruby lattice</summary>
+<div>
+    <span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br />
+    <strong>Main points:</strong> Using neural networks we demonstrate that exotic phases can be dynamically prepared in Rydberg quantum simulators at specific length scales, contrary to the equilibrium predictions.</span>
+</div>
+</details>
+<p><span style="color:grey">D. Vu*, <ins>D. Kufel*</ins>, J. Kemp, L. Pollet, C. Laumann, N. Yao (2025)</span><br />
+<a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
+
+
+
+<details>
 <summary>Hardness of recognizing phases of matter</summary>
 <div>
     <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Computing & Condensed Matter <br />

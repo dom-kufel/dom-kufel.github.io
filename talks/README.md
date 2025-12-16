@@ -7,11 +7,11 @@ permalink: /talks/
 ---
 
 <div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 20px 0;">
-  <figure style="margin:0; max-width:420px;">
+  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
     <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 8px;">
     <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
   </figure>
-  <figure style="margin:0; max-width:420px;">
+  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
     <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 8px;">
     <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
   </figure>
@@ -24,9 +24,6 @@ permalink: /talks/
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> London, UK <br />
   <strong>When:</strong> December 2025</span>
-  <div style="margin-top:10px;">
-    <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="King’s College London talk photo" style="max-width:100%; height:auto; border-radius:8px;">
-  </div>
 </div>
 </details>
 
@@ -44,9 +41,6 @@ permalink: /talks/
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Pasadena, CA <br />
   <strong>When:</strong> May 2025</span>
-  <div style="margin-top:10px;">
-    <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Caltech talk photo" style="max-width:100%; height:auto; border-radius:8px;">
-  </div>
 </div>
 </details>
 

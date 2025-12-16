@@ -6,16 +6,10 @@ description: >
 permalink: /talks/
 ---
 
-<div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 20px 0;">
-  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
-    <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 8px;">
-    <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
-  </figure>
-  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
-    <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 8px;">
-    <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
-  </figure>
-</div>
+<figure style="margin: 20px auto; max-width: 980px;">
+  <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 10px;">
+  <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
+</figure>
 
 ## Recent Talks/Posters
 
@@ -27,6 +21,11 @@ permalink: /talks/
 </div>
 </details>
 
+<figure style="margin: 26px auto 10px; max-width: 980px;">
+  <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
+  <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
+</figure>
+
 <details open>
 <summary>University of Cambridge — Theoretical Condensed Matter division (Talk)</summary>
 <div>
@@ -37,7 +36,7 @@ permalink: /talks/
 </details>
 
 <details open>
-<summary>Caltech — Condensed Matter Theory (Talk)</summary>
+<summary>CalTech — Condensed Matter Theory (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Pasadena, CA <br />
   <strong>When:</strong> May 2025</span>

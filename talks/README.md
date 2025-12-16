@@ -21,11 +21,6 @@ permalink: /talks/
 </div>
 </details>
 
-<figure style="margin: 26px auto 10px; max-width: 980px;">
-  <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
-  <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
-</figure>
-
 <details open>
 <summary>University of Cambridge — Theoretical Condensed Matter division (Talk)</summary>
 <div>
@@ -107,7 +102,7 @@ permalink: /talks/
 </details>
 
 <details>
-<summary>Winter Workshops in Physics (Talks)</summary>
+<summary>Lublin Winter Workshops in Physics (Talks)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Lublin, Poland <br />
   <strong>When:</strong> December 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025</span>
@@ -115,4 +110,7 @@ permalink: /talks/
 </div>
 </details>
 
-
+<figure style="margin: 26px auto 10px; max-width: 980px;">
+  <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
+  <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
+</figure>

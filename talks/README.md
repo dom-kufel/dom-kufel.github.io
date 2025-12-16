@@ -2,17 +2,17 @@
 layout: page
 title: Recent Talks & Posters
 description: >
-  Recent invited talks, seminars, and posters.
+  Recent talks, seminars, and posters.
 permalink: /talks/
 ---
 
 <div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 20px 0;">
   <figure style="margin:0; max-width:420px;">
-    <img src="/assets/img/talks/KCL_talk.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 8px;">
+    <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 8px;">
     <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
   </figure>
   <figure style="margin:0; max-width:420px;">
-    <img src="/assets/img/talks/caltech_talk.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 8px;">
+    <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 8px;">
     <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
   </figure>
 </div>
@@ -25,7 +25,7 @@ permalink: /talks/
   <span style="font-size:0.9em;"><strong>Where:</strong> London, UK <br />
   <strong>When:</strong> December 2025</span>
   <div style="margin-top:10px;">
-    <img src="/assets/img/talks/KCL_talk.jpg" alt="King’s College London talk photo" style="max-width:100%; height:auto; border-radius:8px;">
+    <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="King’s College London talk photo" style="max-width:100%; height:auto; border-radius:8px;">
   </div>
 </div>
 </details>
@@ -45,7 +45,7 @@ permalink: /talks/
   <span style="font-size:0.9em;"><strong>Where:</strong> Pasadena, CA <br />
   <strong>When:</strong> May 2025</span>
   <div style="margin-top:10px;">
-    <img src="/assets/img/talks/caltech_talk.jpg" alt="Caltech talk photo" style="max-width:100%; height:auto; border-radius:8px;">
+    <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Caltech talk photo" style="max-width:100%; height:auto; border-radius:8px;">
   </div>
 </div>
 </details>

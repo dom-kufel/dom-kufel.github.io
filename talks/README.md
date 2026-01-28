@@ -96,7 +96,7 @@ permalink: /talks/
 <summary>Lublin Winter Workshops in Physics (Talks)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Lublin, Poland <br />
-  <strong>When:</strong> December 2023, 2024, 2025</span>
+  <strong>When:</strong> December 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025</span>
   <!-- Add a photo here if you have one, e.g. /assets/img/talks/winter_workshop_lublin.jpg -->
 </div>
 </details>

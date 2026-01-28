@@ -88,6 +88,11 @@ permalink: /publications/
 <a href="https://doi.org/10.1007/s10827-018-0684-x"><em>Journal of Computational Neuroscience 44, 379-391</em></a> <a href="https://link.springer.com/content/pdf/10.1007/s10827-018-0684-x.pdf?pdf=button">PDF</a></p>
 
 
+## Refereeing
+
+<p>I refereed for <em>Physical Review Letters</em>, <em>Physical Review A</em>, <em>QIP</em>, and <em>QCTIP</em>.</p>
+
+
 <!-- While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
 {:.note}
 

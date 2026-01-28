@@ -14,6 +14,15 @@ permalink: /talks/
 ## Recent Talks/Posters
 
 <details open>
+<summary>Harvard University — Department of Physics (CMT Kids Talk)</summary>
+<div>
+  <span style="font-size:0.9em;"><strong>Where:</strong> Cambridge, MA <br />
+  <strong>When:</strong> January 2026</span>
+  <!-- Add a photo here if you have one, e.g. /assets/img/talks/harvard_cmt_kids_talk.jpg -->
+</div>
+</details>
+
+<details open>
 <summary>King’s College London — Department of Physics (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> London, UK <br />

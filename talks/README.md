@@ -11,7 +11,7 @@ permalink: /talks/
   <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
 </figure>
 
-## Recent Talks/Posters
+## Recent Talks/Posters (2023+)
 
 <details open>
 <summary>Harvard University — Department of Physics (CMT Kids Talk)</summary>
@@ -93,28 +93,10 @@ permalink: /talks/
 </details>
 
 <details>
-<summary>Joint Mathematics Meeting — with A. Boskovic and Q. Chen (Talk)</summary>
-<div>
-  <span style="font-size:0.9em;"><strong>Where:</strong> Denver <br />
-  <strong>When:</strong> January 2020</span>
-  <!-- Add a photo here if you have one, e.g. /assets/img/talks/jmm_2020_talk.jpg -->
-</div>
-</details>
-
-<details>
-<summary>UCL Department of Physics &amp; Astronomy — Cumberland Lodge retreat (Talk)</summary>
-<div>
-  <span style="font-size:0.9em;"><strong>Where:</strong> Cumberland Lodge retreat <br />
-  <strong>When:</strong> November 2019</span>
-  <!-- Add a photo here if you have one, e.g. /assets/img/talks/ucl_retreat_2019_talk.jpg -->
-</div>
-</details>
-
-<details>
 <summary>Lublin Winter Workshops in Physics (Talks)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Lublin, Poland <br />
-  <strong>When:</strong> December 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025</span>
+  <strong>When:</strong> December 2023, 2024, 2025</span>
   <!-- Add a photo here if you have one, e.g. /assets/img/talks/winter_workshop_lublin.jpg -->
 </div>
 </details>

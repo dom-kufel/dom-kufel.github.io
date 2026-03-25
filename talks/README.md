@@ -32,7 +32,7 @@ permalink: /talks/
 </div>
 </details>
 
-<details open>
+<details>
 <summary>King’s College London — Department of Physics (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> London, UK <br />
@@ -40,7 +40,7 @@ permalink: /talks/
 </div>
 </details>
 
-<details open>
+<details>
 <summary>University of Cambridge — Theoretical Condensed Matter division (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Cambridge, UK <br />
@@ -49,7 +49,7 @@ permalink: /talks/
 </div>
 </details>
 
-<details open>
+<details>
 <summary>CalTech — Condensed Matter Theory (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Pasadena, CA <br />

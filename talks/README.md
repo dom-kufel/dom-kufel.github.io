@@ -7,8 +7,8 @@ permalink: /talks/
 ---
 
 <figure style="margin: 20px auto; max-width: 980px;">
-  <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 10px;">
-  <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
+  <img src="/assets/img/talks/MIT_summit talk.JPG" alt="Talk at MIT Universal AI Summit 2026" style="width:100%; height:auto; border-radius: 10px;">
+  <figcaption style="text-align:center;"><em>MIT Universal AI Summit, March 2026</em></figcaption>
 </figure>
 
 ## Recent Talks/Posters (2023+)
@@ -16,14 +16,14 @@ permalink: /talks/
 <details open>
 <summary>Universal AI MIT Summit 2026 (Talk)</summary>
 <div>
-  <span style="font-size:0.9em;"><strong>Where:</strong> Warsaw, Poland <br />
+  <span style="font-size:0.9em;"><strong>Where:</strong> Cambridge, MA <br />
   <strong>When:</strong> March 23, 2026</span><br />
   <a href="https://uaisummit.mit.edu/">Event website</a>
   <!-- Add a photo here if you have one, e.g. /assets/img/talks/uai_mit_summit_2026.jpg -->
 </div>
 </details>
 
-<details open>
+<details>
 <summary>Harvard University — Department of Physics (CMT Kids Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Cambridge, MA <br />
@@ -111,7 +111,13 @@ permalink: /talks/
 </div>
 </details>
 
-<figure style="margin: 26px auto 10px; max-width: 980px;">
-  <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
-  <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
-</figure>
+<div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 26px 0 10px;">
+  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
+    <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 10px;">
+    <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
+  </figure>
+  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
+    <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
+    <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
+  </figure>
+</div>

@@ -16,7 +16,7 @@ permalink: /talks/
 <details open>
 <summary>Universal AI MIT Summit 2026 (Talk)</summary>
 <div>
-  <span style="font-size:0.9em;"><strong>Where:</strong> Cambridge, MA <br />
+  <span style="font-size:0.9em;"><strong>Where:</strong> Warsaw, Poland <br />
   <strong>When:</strong> March 23, 2026</span><br />
   <a href="https://uaisummit.mit.edu/">Event website</a>
   <!-- Add a photo here if you have one, e.g. /assets/img/talks/uai_mit_summit_2026.jpg -->

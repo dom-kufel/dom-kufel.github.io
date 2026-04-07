@@ -16,7 +16,7 @@ redirect_from:
 
 <!-- <p style="text-align:center;"><img src="/assets/img/prof_pic.jpg" width="150"/></p> -->
 
-I am a PhD student at Harvard. I am very fortunate to be advised by [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao). I am a member of the inaugural cohort of the Quantum Science and Engineering program, part of the [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am broadly interested in AI for materials & quantum many-body systems, exotic phases of matter, quantum sensing and quantum computing. A question I am currently most excited by is: *how can we run science autonomously with AI agents* — closing the loop all the way from theory through experiment to discovery? 
+I am a PhD student at Harvard, fortunate to be advised by [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao) and part of the inaugural cohort of the [Harvard Quantum Initiative](https://quantum.harvard.edu/)'s Quantum Science and Engineering program. My research spans AI for materials and quantum many-body systems, exotic phases of matter, quantum computing and quantum sensing. The question driving me right now: *can AI agents run science end-to-end* — from theoretical hypothesis to experimental discovery, autonomously?
 
 Recently, I also joined [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/) in its very early days for a full-time internship and currently hold a part-time appointment. Our mission is to create an AI scientist.
 

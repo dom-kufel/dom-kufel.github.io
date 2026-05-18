@@ -9,4 +9,4 @@ description: This is a gif made out of the early-year-undergrad targeted talk sl
 <p>(If you would like to replay it in a large window: right click and open image in a new tab.)</p>
 
  <p><b>Fun fact</b>: These talks in some communities earned me a "chicken guy" nickname. <br></p>
- <p><small>(I hope I deserve the nickname... At least I really like chicken!)</small></p>
+ <p><small>(I hope I deserve the nickname.)</small></p>

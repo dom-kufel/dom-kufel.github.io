@@ -90,7 +90,7 @@ permalink: /publications/
 
 ## Refereeing
 
-<p>I refereed for <em>Physical Review Letters</em> [multiple times], <em>Physical Review A</em>, <em>QIP</em>, and <em>QCTIP</em>.</p>
+<p>I refereed for <em>Physical Review Letters</em> [multiple times], <em>International Conference on Machine Learning (ICML) - AI4Science Workshop</em>, <em>Physical Review A</em>, <em>Quantum Information Processing conference (QIP)</em>, and <em>Quantum Computing Theory in Practice (QCTIP)</em>.</p>
 
 
 <!-- While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.

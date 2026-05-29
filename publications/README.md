@@ -9,6 +9,17 @@ permalink: /publications/
 ---
 
 <details>
+<summary>Comment on "Spin-1/2 Kagome Heisenberg Antiferromagnet: Machine Learning Discovery of the Spinon Pair-Density-Wave Ground State"</summary>
+<div>
+    <span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br />
+    <strong>Main points:</strong> Comment on a recent machine-learning study of the kagome Heisenberg antiferromagnet. We show that the reported low variational energies arise from broken ergodicity in Metropolis–Hastings sampling thus calling the original claims into question.</span>
+</div>
+</details>
+<p><span style="color:grey">H. Kamal, <ins>D. Kufel</ins>, D. Vu, C. Laumann, N. Yao (2026)</span><br />
+<a href="https://arxiv.org/abs/2605.28861"><em>arXiv:2605.28861</em></a> <a href="https://arxiv.org/pdf/2605.28861">PDF</a></p>
+
+
+<details>
 <summary>Optimizing the dynamical preparation of quantum spin lakes on the ruby lattice</summary>
 <div>
     <span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br />

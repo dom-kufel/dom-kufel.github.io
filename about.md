@@ -22,7 +22,7 @@ The question driving me right now: can AI agents run science end-to-end — from
 
 When I’m not grinding, I’m usually at the gym, out for a run, cycling, or enjoying nature. I also serve as President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 
-I hold master’s degrees from Harvard University (Quantum Science), University College London (Physics and Quantum Technologies) and previously worked at the [London Centre for Nanotechnology](https://www.london-nano.com/). 
+I hold master’s degrees from Harvard University (MA Quantum Science), University College London (MSci Physics and MRes Quantum Technologies) and previously worked at the [London Centre for Nanotechnology](https://www.london-nano.com/). 
 
 I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 

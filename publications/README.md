@@ -27,7 +27,7 @@ permalink: /publications/
 </div>
 </details>
 <p><span style="color:grey">D. Vu*, <ins>D. Kufel*</ins>, J. Kemp, L. Pollet, C. Laumann, N. Yao (2025)</span><br />
-<a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
+<em>to appear in Physical Review Letters</em> <a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
 
 
 

@@ -26,8 +26,8 @@ permalink: /publications/
     <strong>Main points:</strong> Using neural networks we demonstrate that exotic phases can be dynamically prepared in Rydberg quantum simulators at specific length scales, contrary to the equilibrium predictions.</span>
 </div>
 </details>
-<p><span style="color:grey">D. Vu*, <ins>D. Kufel*</ins>, J. Kemp, L. Pollet, C. Laumann, N. Yao (2025)</span><br />
-<em>to appear in Physical Review Letters</em> <a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
+<p><span style="color:grey">D. Vu*, <ins>D. Kufel*</ins>, J. Kemp, L. Pollet, C. Laumann, N. Yao (2026)</span><br />
+<a href="https://journals.aps.org/prl/abstract/10.1103/7dnl-6kg2"><em>Physical Review Letters 137, 093402</em></a> <a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
 
 
 

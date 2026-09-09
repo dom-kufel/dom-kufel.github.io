@@ -102,8 +102,6 @@ Taken together, there is simply **a vast and mostly unexplored design space**. I
 
 **“But LLMs don't understand the physical world.”** I think there is something important hiding in this objection, especially once we leave mathematics and simulation and ask about choosing useful abstractions for say experimental physics reality. This is a much broader question though and I think it deserves its own blogpost.
 
-Do you see any visible bottlenecks for your field? I’d be curious to know.
-
 Ok, now, with the objections out of the way, what does all this do to physicists?
 
 ## Implications for physics

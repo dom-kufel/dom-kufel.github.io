@@ -2,3 +2,71 @@
 // .sidebar a {
 //   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 // }
+
+// Blog post subtitle: render a post's `description` as a deck sitting directly
+// under the title, instead of the theme's small "DESCRIPTION"-labelled note.
+.layout-post .page > header > .note-sm {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  font-style: italic;
+  color: var(--gray-text);
+  border-left: 0;
+  padding: 0;
+  margin: 0.15rem 0 0.5rem 0;
+
+  &:before {
+    content: none !important;
+  }
+}
+
+// Collapsible box for optional background material, for readers who are not
+// already familiar with it. Kept self-contained so the main text reads the
+// same whether or not it is opened.
+details.learning-box {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  background-color: var(--gray-bg);
+
+  > summary {
+    display: block; // drop the default disclosure marker
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    color: var(--body-color);
+    font-size: 0.95rem;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "\25B8"; // ▸
+      display: inline-block;
+      width: 1.1rem;
+      color: var(--gray-text);
+    }
+
+    &:hover {
+      background-color: var(--border-color);
+    }
+  }
+
+  &[open] > summary {
+    border-bottom: 1px solid var(--border-color);
+
+    &::before {
+      content: "\25BE"; // ▾
+    }
+  }
+
+  > div {
+    padding: 0.9rem 1rem 0.1rem 1rem;
+    font-size: 0.9rem;
+
+    > ul:last-child,
+    > p:last-child {
+      margin-bottom: 0.9rem;
+    }
+  }
+}

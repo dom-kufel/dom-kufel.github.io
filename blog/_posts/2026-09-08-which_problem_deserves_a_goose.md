@@ -3,7 +3,6 @@ layout: post
 title: Which problem deserves a goose?
 description: >
   The AI scientist, and what is left for theoretical physicists.
-hide_description: true
 sitemap: false
 ---
 
@@ -13,9 +12,6 @@ sitemap: false
   - /blog/_posts/2025-01-07-symmetries_neural_quantum.md -->
 
 <!-- image: /assets/img/blog/blogpost_ai_scientist_cafe_loop.svg -->
-
-*The AI scientist, and what is left for theoretical physicists.*
-{:.lead}
 
 ***
 
@@ -62,7 +58,9 @@ What should strike us, though, is less the current status than the speed of prog
 
 ## Why should we expect the AI scientist to improve further?
 
-Let’s start from a quick recap of the vocabulary to set the stage.
+<details class="learning-box">
+<summary><b>VOCAB BOX:</b> Let’s start from a quick recap of the vocabulary to set the stage. </summary>
+<div markdown="1">
 
 - LLMs are models which consume textual input which is turned into a set of “tokens” (which loosely map to chunks of text, typically a word or a piece of one) and then processed by a (transformer-backbone) neural network with certain **weights** which ultimately determine the set of output tokens \[further dividing for reasoning LLMs into “reasoning” tokens and “visible output” tokens\].
 - Now weights for models such as GPT-6 or Claude Fable are **closed** \[i.e. public does not know what they are\] vs for some others — such as Kimi K3 or GLM 5.3 — they are publicly available i.e. models are **“open-weight”**.
@@ -70,6 +68,9 @@ Let’s start from a quick recap of the vocabulary to set the stage.
 - The max length of the input visible to the LLM is known as “context window” which for most 2026 models is around 1M tokens.
 - LLMs can be further equipped with access to tools (such as running commands in terminal, reading files etc.), context management mechanisms (e.g., compactification) and then they are known as “**AI agents**”.
 - Further scaffolding around agents orchestration and curated context loading (”skills”, “AGENTS.md”, memories etc) is often referred to as **agentic harness.** What I refer to as **“AI scientist”** here is a form of an agentic harness for more or less specialized science tasks.
+
+</div>
+</details>
 
 Having set the basics, there are a few stages of how one improves LLMs. They can be roughly divided into improvements during **pre-training, post-training and agentic harness.** When the last two keep happening during deployment, from the agent's own experience, this is called [continual learning](https://www.lesswrong.com/posts/5mCJzimtNZc9o4e26/what-s-continual-learning-and-why-might-we-expect-to-see-it).
 
@@ -191,5 +192,5 @@ Fig. 4: (1972) Mazur (left) handing “the young Swede” Per Enflo the live goo
 
 Let me finish this story back in Lwów. Banach would turn up the morning after a café session with a proof on loose sheets, sometimes incomplete, sometimes wrong, and Mazur would put it right. That part of the job is what the machine now more or less offers to do for anyone who asks, and it will do it faster every year. What it does not yet offer is to tell you which problem *deserves a goose* — not because that judgment is sacred, but because it is the one step in the loop nobody has yet worked out how to grade.
 
-**Acknowledgements:** I’d like to thank many of my colleagues, in particular Jack Kemp, Shashvat Shukla and Sajant Anand for providing feedback on the draft version of this blogpost.
+**Acknowledgements:** I’d like to thank many of my colleagues, in particular Jack Kemp, Shashvat Shukla, Robert Adragna and Sajant Anand for providing feedback on the draft version of this blogpost.
 {:.message}

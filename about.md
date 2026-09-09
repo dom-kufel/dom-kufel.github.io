@@ -22,9 +22,9 @@ I'm a fifth-year PhD student at Harvard, advised by [Norman Yao](https://www.phy
 
 I've been lucky to help build toward that vision at [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/) from its early days — first full-time, then part-time.
 
-Before Harvard: MSci Physics and MRes Quantum Technologies at UCL, research at the [London Centre for Nanotechnology](https://www.london-nano.com/), and a childhood in [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
+[Lublin, Poland](https://en.wikipedia.org/wiki/Lublin) → London → Cambridge, MA. Along the way: MSci Physics and MRes Quantum Technologies at UCL, research at the [London Centre for Nanotechnology](https://www.london-nano.com/), and an MA in Quantum Science at Harvard.
 
-Away from the whiteboard I lift, run, cycle, and get outside. I'm aPresident of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
+Away from the whiteboard I lift, run, cycle, and get outside. I'm President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 
 If you're thinking about autonomous science, quantum many-body physics, or AI for materials, I'd like to hear from you.
 

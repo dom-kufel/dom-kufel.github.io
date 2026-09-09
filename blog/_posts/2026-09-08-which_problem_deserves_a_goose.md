@@ -3,6 +3,7 @@ layout: post
 title: Which problem deserves a goose?
 description: >
   The AI scientist, and what is left for theoretical physicists.
+hide_description: true
 sitemap: false
 ---
 
@@ -13,9 +14,10 @@ sitemap: false
 
 <!-- image: /assets/img/blog/blogpost_ai_scientist_cafe_loop.svg -->
 
-***
+*The AI scientist, and what is left for theoretical physicists.*
+{:.lead}
 
-## Intro
+***
 
 In 1936 mathematician Stanisław Mazur wrote Problem 153 into a notebook kept by the waiters of the Scottish Café in Lwów. The café was the working room of what is now called the Lwów school of mathematics: Banach, Mazur, Ulam and a few other Polish mathematicians, who spent their afternoons and evenings there and, between them, invented much of functional analysis. When a problem survived enough discussion, it went into the notebook, with a prize attached: a small beer, a bottle of wine. For 153, Mazur offered a **live goose**. The prize was, in effect, a guess at difficulty: beers for an evening's work, a bottle for a hard one, a goose for a problem Mazur did not expect to see solved in his lifetime.
 
@@ -31,10 +33,7 @@ Strip away the coffee and the goose, and the café ran a simple loop: someone ch
 
 Here, by an **AI scientist** I mean systems built on **large language models** (LLMs) that read the literature, propose a hypothesis, run the calculation or simulation, check the result and write it up, with humans in the loop needed less and less. How good are these AI scientists already, and where are they heading? A lot of people have been asking me lately, so here is my attempt at an answer, in two parts. First, a critical look at where the AI scientist actually stands, and why I expect it to keep improving. Then some bold projections, and the questions about physics, physicists, and physics education that I think follow from them. We will revisit the Lwów café and its Polish mathematicians along the way.
 
-### Disclaimer
-
-This is a rapidly moving field, and I have hesitated to write publicly about it for a while; what follows is therefore best read as a collection of my subjective judgements and only as a snapshot of my current understanding. I write from theoretical physics; experiment is a different story, and I only gesture at it below.
-{:.message}
+**Disclaimer:** This is a rapidly moving field, and I have hesitated to write publicly about it for a while; what follows is therefore best read as a collection of my subjective judgements and only as a snapshot of my current understanding. I write from theoretical physics; experiment is a different story, and I only gesture at it below.
 
 * table of contents
 {:toc}

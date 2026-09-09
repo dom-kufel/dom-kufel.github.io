@@ -16,15 +16,17 @@ redirect_from:
 
 <!-- <p style="text-align:center;"><img src="/assets/img/prof_pic.jpg" width="150"/></p> -->
 
-I am a fifth-year PhD student at Harvard, fortunate to be advised by [Professor Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao) and part of the inaugural cohort of the Quantum Science and Engineering program within [Harvard Quantum Initiative](https://quantum.harvard.edu/). I am also a Harvard AI Fellow. My research spans AI for materials and quantum many-body systems, exotic phases of matter, quantum computing and quantum sensing. 
+Can an AI agent run science end-to-end — form a hypothesis, design the experiment, run it, and discover something no human told it to look for? That question is equal parts thrilling and terrifying, and it's what I work on.
 
-The question driving me right now: can AI agents run science end-to-end — from theoretical hypothesis to experimental discovery, autonomously? That prospect is equal parts thrilling and terrifying. I've been lucky to help build toward that vision at [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/) from its early days — first full-time, then part-time — a company on a mission to build an AI scientist.
+I'm a fifth-year PhD student at Harvard, advised by [Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao), in the inaugural cohort of the [Harvard Quantum Initiative](https://quantum.harvard.edu/)'s Quantum Science and Engineering program, and a Harvard AI Fellow. I build AI systems that discover new materials and exotic phases of matter, and I use quantum computers and sensors to probe them.
 
-When I’m not grinding, I’m usually at the gym, out for a run, cycling, or enjoying nature. I also serve as President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
+I've been lucky to help build toward that vision at [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/) from its early days — first full-time, now part-time. Its mission: build an AI scientist.
 
-I hold master’s degrees from Harvard University (MA Quantum Science), University College London (MSci Physics and MRes Quantum Technologies) and previously worked at the [London Centre for Nanotechnology](https://www.london-nano.com/). 
+Before Harvard: MSci Physics and MRes Quantum Technologies at UCL, research at the [London Centre for Nanotechnology](https://www.london-nano.com/), and a childhood in [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
 
-I hail from [Lublin, Poland](https://en.wikipedia.org/wiki/Lublin).
+Away from the whiteboard I lift, run, cycle, and get outside. I'm President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
+
+If you're thinking about autonomous science, quantum many-body physics, or AI for materials, I'd like to hear from you.
 
 > **Contact:** dkufel [at] g.harvard.edu
 {:.lead}

@@ -21,7 +21,7 @@ Can an AI agent run science end-to-end — form a hypothesis, design the experim
 I'm a fifth-year PhD student at Harvard, advised by [Norman Yao](https://www.physics.harvard.edu/people/norman-y-yao), in the inaugural cohort of the [Harvard Quantum Initiative](https://quantum.harvard.edu/)'s Quantum Science and Engineering program, and a Harvard AI Fellow. I build AI systems that discover new materials and exotic phases of matter, and I use quantum computers and sensors to probe them.
 Beyond the PhD, I've been lucky to help build toward that vision of autonomous science at [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/) from its early days — first full-time, then part-time.
 
-[Lublin, Poland](https://en.wikipedia.org/wiki/Lublin) → London, UK → Cambridge, USA. Along the way: MSci Physics and MRes Quantum Technologies at UCL, research at the [London Centre for Nanotechnology](https://www.london-nano.com/), and an MA in Quantum Science at Harvard.
+[Lublin](https://en.wikipedia.org/wiki/Lublin) 🇵🇱 → London 🇬🇧 → Cambridge 🇺🇸. Along the way: MSci Physics and MRes Quantum Technologies at UCL, research at the [London Centre for Nanotechnology](https://www.london-nano.com/), and an MA in Quantum Science at Harvard.
 
 Away from the whiteboard I lift, run, cycle, and get outside. I'm President of the [Harvard GSAS Polish Student Association](https://www.linkedin.com/company/harvard-gsas-polish-student-association).
 

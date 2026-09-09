@@ -72,7 +72,7 @@ What should strike us, though, is less the current status than the speed of prog
 </div>
 </details>
 
-Having set the basics, there are a few stages of how one improves LLMs. They can be roughly divided into improvements during **pre-training, post-training and agentic harness.** When the last two keep happening during deployment, from the agent's own experience, this is called [continual learning](https://www.lesswrong.com/posts/5mCJzimtNZc9o4e26/what-s-continual-learning-and-why-might-we-expect-to-see-it).
+There are a few stages of how one improves LLMs. They can be roughly divided into improvements during **pre-training, post-training and agentic harness.** When the last two keep happening during deployment, from the agent's own experience, this is called [continual learning](https://www.lesswrong.com/posts/5mCJzimtNZc9o4e26/what-s-continual-learning-and-why-might-we-expect-to-see-it).
 
 First, there is **pre-training:** teaching LLMs how to predict next token better. Scaling models \[see [neural scaling laws](https://arxiv.org/abs/2001.08361)\], improving data quality and incorporating more scientific material continue to improve the raw substrate on which these systems operate; relatedly progress on developing **longer usable context windows** will also allow an agent to keep much larger parts of a calculation, codebase or literature trail in view.
 

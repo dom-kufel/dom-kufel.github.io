@@ -2,8 +2,9 @@
 layout: post
 title: Which problem deserves a goose?
 description: >
-  The AI scientist, and what is left for theoretical physicists.
-sitemap: false
+  The AI scientist and the future of theoretical physics: where LLM research agents stand
+  today (benchmarks, autonomous research), why they will keep improving, and what is left
+  for theoretical physicists. By Dominik Kufel.
 ---
 
 <!-- 2026-09-08 -->

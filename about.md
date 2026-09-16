@@ -2,7 +2,9 @@
 layout: about
 image: /assets/img/prof_pic.jpg
 description: >
-  Dominik Kufel
+  Dominik Kufel — Harvard PhD student and Harvard AI Fellow building AI systems that
+  discover new materials and phases of matter, working on autonomous AI scientists,
+  quantum many-body physics and quantum computing.
 hide_description: true
 redirect_from:
   - /download/

@@ -25,13 +25,23 @@ title:                 Dominik Kufel
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal website
+  Dominik Kufel — PhD student at Harvard working on AI for quantum many-body physics,
+  AI scientists for theoretical physics, neural quantum states, and quantum computing.
+  Blog, publications and talks.
 
 # A shorter description for the sidebar.
 tagline:               PhD student in Quantum & AI @ Harvard University
 
 # A list of keywords for your blog
-keywords:              []
+keywords:
+  - Dominik Kufel
+  - AI scientist
+  - theoretical physics
+  - quantum many-body physics
+  - neural quantum states
+  - machine learning
+  - quantum computing
+  - Harvard
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,10 +51,10 @@ logo:                 #/assets/img/prof_pic.jpg #/assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Dominik
-  email:               Kufel
-  # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  name:                Dominik Kufel
+  email:               dkufel@g.harvard.edu
+  # Used by `jekyll-seo-tag`:
+  twitter:             DomKufel
 
 # Add links to the sidebar.
 menu:
@@ -356,8 +366,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+  username:            DomKufel
 
 # Used for facebook open graph
 # facebook:
@@ -366,11 +376,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Dominik Kufel
+  links:
+    - https://twitter.com/DomKufel
+    - https://www.linkedin.com/in/dominik-kufel
 
 
 # Plugin Configs

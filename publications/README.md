@@ -2,9 +2,8 @@
 layout: page
 title: Publications
 description: >
-  List of papers
+  Publications by Dominik Kufel on AI for quantum many-body physics, neural quantum states, and quantum computing.
 hide_description: true
-sitemap: false
 permalink: /publications/
 ---
 

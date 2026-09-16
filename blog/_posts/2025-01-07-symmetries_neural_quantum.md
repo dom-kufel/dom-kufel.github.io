@@ -2,8 +2,7 @@
 layout: post
 title: Symmetries, neural nets and applications - a quick introduction
 description: >
-  Introduction to symmetries, equivariant neural nets and their limitations. 
-sitemap: false
+  Introduction to symmetries, equivariant neural networks and their limitations, with applications to neural quantum states. 
 ---
 
 <!-- 2023-01-19 -->

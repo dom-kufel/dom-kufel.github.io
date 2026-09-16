@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Which problem deserves a goose?
+# SEO-only description (meta description, Open Graph, structured data).
+# Not displayed on the page because of `hide_description: true` below;
+# the visible one-liner is the `{:.note-sm}` paragraph at the top of the body.
 description: >
   The AI scientist and the future of theoretical physics: where LLM research agents stand
   today (benchmarks, autonomous research), why they will keep improving, and what is left
   for theoretical physicists. By Dominik Kufel.
+hide_description: true
 ---
 
 <!-- 2026-09-08 -->
@@ -13,6 +17,9 @@ description: >
   - /blog/_posts/2025-01-07-symmetries_neural_quantum.md -->
 
 <!-- image: /assets/img/blog/blogpost_ai_scientist_cafe_loop.svg -->
+
+The AI scientist, and what is left for theoretical physicists.
+{:.note-sm}
 
 ***
 

@@ -3,7 +3,7 @@ layout: post
 title: Which problem deserves a goose?
 # SEO-only description (meta description, Open Graph, structured data).
 # Not displayed on the page because of `hide_description: true` below;
-# the visible one-liner is the `{:.note-sm}` paragraph at the top of the body.
+# the visible subtitle is the `post-subtitle` paragraph at the top of the body.
 description: >
   The AI scientist and the future of theoretical physics: where LLM research agents stand
   today (benchmarks, autonomous research), why they will keep improving, and what is left
@@ -18,8 +18,7 @@ hide_description: true
 
 <!-- image: /assets/img/blog/blogpost_ai_scientist_cafe_loop.svg -->
 
-The AI scientist, and what is left for theoretical physicists.
-{:.note-sm}
+<p class="post-subtitle" style="font-size:1.3rem;line-height:1.35;font-style:italic;color:var(--gray-text);margin:0.15rem 0 0.5rem 0;">The AI scientist, and what is left for theoretical physicists.</p>
 
 ***
 

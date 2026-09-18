@@ -14,6 +14,14 @@ permalink: /talks/
 ## Recent Talks/Posters (2023+)
 
 <details open>
+<summary>UC Berkeley — Department of Physics (Talk)</summary>
+<div>
+  <span style="font-size:0.9em;"><strong>Where:</strong> Berkeley, CA <br />
+  <strong>When:</strong> September 2026</span>
+</div>
+</details>
+
+<details>
 <summary>Universal AI MIT Summit 2026 (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Warsaw, Poland <br />
@@ -110,12 +118,16 @@ permalink: /talks/
 </div>
 </details>
 
-<div style="display:flex; gap:16px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 26px 0 10px;">
-  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
+<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 26px 0 10px;">
+  <figure style="margin:0; flex: 1 1 160px; max-width: 280px;">
+    <img src="/assets/img/talks/berkeley_talk_photo.jpg" alt="Talk at UC Berkeley" style="width:100%; height:auto; border-radius: 10px;">
+    <figcaption style="text-align:center;"><em>UC Berkeley, Sept 2026</em></figcaption>
+  </figure>
+  <figure style="margin:0; flex: 1 1 160px; max-width: 280px;">
     <img src="/assets/img/talks/caltech_talk_photo.jpg" alt="Talk at Caltech" style="width:100%; height:auto; border-radius: 10px;">
     <figcaption style="text-align:center;"><em>Caltech, May 2025</em></figcaption>
   </figure>
-  <figure style="margin:0; flex: 1 1 320px; max-width: 340px;">
+  <figure style="margin:0; flex: 1 1 160px; max-width: 280px;">
     <img src="/assets/img/talks/KCL_talk_photo.jpg" alt="Talk at King's College London" style="width:100%; height:auto; border-radius: 10px;">
     <figcaption style="text-align:center;"><em>King’s College London, Dec 2025</em></figcaption>
   </figure>

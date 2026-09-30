@@ -14,6 +14,13 @@ permalink: /talks/
 ## Recent Talks/Posters (2023+)
 
 <details open>
+<summary>European Central Bank (Talk)</summary>
+<div>
+  <span style="font-size:0.9em;"><strong>When:</strong> September 2026</span>
+</div>
+</details>
+
+<details>
 <summary>UC Berkeley — Department of Physics (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>Where:</strong> Berkeley, CA <br />

@@ -1,0 +1,138 @@
+# Talks & posters shown on /talks/, newest first.
+#
+#   institution  Card title (required)
+#   host         Department, group or event (optional)
+#   kind         Talk | Poster | Talks
+#   date         Free-form date string as displayed
+#   year         Used to group past talks
+#   location     Optional; omitted from the card when empty
+#   url          Optional event link
+#   logo         Path to a logo image; without it, `monogram` + `color` are used
+#   logo_fit     cover → image fills the logo tile (for photos rather than logos)
+#   photo        Card image (a resized copy in assets/img/talks/thumbs/)
+#   photo_full   Full-resolution photo opened when the card image is clicked
+#   photo_position  CSS object-position for cropping the card image
+#   upcoming     true → listed under "Upcoming"
+#   recurring    true → listed under "Recurring"
+
+- institution: National University of Singapore
+  kind: Talk
+  date: October 2026
+  year: 2026
+  location: Singapore
+  logo: /assets/img/talks/logos/nus.png
+  upcoming: true
+
+- institution: European Central Bank
+  kind: Talk
+  date: September 2026
+  year: 2026
+  logo: /assets/img/talks/logos/ecb.png
+
+- institution: UC Berkeley
+  host: Department of Physics
+  kind: Talk
+  date: September 2026
+  year: 2026
+  location: Berkeley, CA
+  logo: /assets/img/talks/logos/berkeley.png
+  photo: /assets/img/talks/thumbs/berkeley_talk_photo.jpg
+  photo_full: /assets/img/talks/berkeley_talk_photo.jpg
+  photo_position: 60% 40%
+
+- institution: Universal AI MIT Summit 2026
+  kind: Talk
+  date: March 23, 2026
+  year: 2026
+  location: Warsaw, Poland
+  url: https://uaisummit.mit.edu/
+  logo: /assets/img/talks/logos/mit.png
+  photo: /assets/img/talks/thumbs/mit_summit_talk.jpg
+  photo_full: /assets/img/talks/MIT_summit%20talk.jpeg
+  photo_position: 40% 30%
+
+- institution: Harvard University
+  host: Department of Physics — CMT Kids Talk
+  kind: Talk
+  date: January 2026
+  year: 2026
+  location: Cambridge, MA
+  logo: /assets/img/talks/logos/harvard.png
+
+- institution: King’s College London
+  host: Department of Physics
+  kind: Talk
+  date: December 2025
+  year: 2025
+  location: London, UK
+  logo: /assets/img/talks/logos/kcl.png
+  photo: /assets/img/talks/thumbs/kcl_talk_photo.jpg
+  photo_full: /assets/img/talks/KCL_talk_photo.jpg
+  photo_position: 40% 45%
+
+- institution: University of Cambridge
+  host: Theoretical Condensed Matter division
+  kind: Talk
+  date: December 2025
+  year: 2025
+  location: Cambridge, UK
+  logo: /assets/img/talks/logos/cambridge.png
+
+- institution: Caltech
+  host: Condensed Matter Theory
+  kind: Talk
+  date: May 2025
+  year: 2025
+  location: Pasadena, CA
+  logo: /assets/img/talks/logos/caltech.png
+  photo: /assets/img/talks/thumbs/caltech_talk_photo.jpg
+  photo_full: /assets/img/talks/caltech_talk_photo.jpg
+  photo_position: 55% 40%
+
+- institution: Aspen Center for Physics
+  host: AI for Quantum workshop
+  kind: Poster
+  date: February 2025
+  year: 2025
+  location: Aspen, CO
+  logo: /assets/img/talks/logos/aspen.jpg
+
+- institution: MIT
+  host: Institute for Artificial Intelligence and Fundamental Interactions
+  kind: Talk
+  date: August 2024
+  year: 2024
+  location: Cambridge, MA
+  logo: /assets/img/talks/logos/mit.png
+
+- institution: Boston University
+  host: Condensed Matter Theory seminar
+  kind: Talk
+  date: May 2024
+  year: 2024
+  location: Boston, MA
+  logo: /assets/img/talks/logos/bu.png
+
+- institution: NeurIPS
+  host: ML4Physics workshop
+  kind: Poster
+  date: December 2023
+  year: 2023
+  location: New Orleans, LA
+  logo: /assets/img/talks/logos/neurips.svg
+
+- institution: ICTP-SAIFR
+  host: Non-equilibrium emergent phenomena summer school
+  kind: Talk
+  date: July 2023
+  year: 2023
+  location: São Paulo, Brazil
+  logo: /assets/img/talks/logos/ictp_saifr.jpg
+
+- institution: Lublin Winter Workshops in Physics
+  kind: Talks
+  date: December 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025
+  location: Lublin, Poland
+  logo: /assets/img/talks/logos/lublin.jpg
+  logo_fit: cover
+  recurring: true

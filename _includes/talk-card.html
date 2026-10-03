@@ -1,0 +1,32 @@
+{%- assign t = include.talk -%}
+<article class="talk-card{% if t.photo %} talk-card--photo{% endif %}{% if t.upcoming %} talk-card--upcoming{% endif %}">
+  <div class="talk-card__main">
+    {%- if t.logo %}
+    <div class="talk-card__logo{% if t.logo_fit == 'cover' %} talk-card__logo--cover{% endif %}"><img src="{{ t.logo | relative_url }}" alt="{{ t.institution }} logo" loading="lazy" decoding="async"></div>
+    {%- else %}
+    <div class="talk-card__logo talk-card__logo--monogram" style="--talk-color: {{ t.color | default: '#4f6d7a' }};" aria-hidden="true"><span>{{ t.monogram }}</span></div>
+    {%- endif %}
+    <div class="talk-card__body">
+      <div class="talk-card__tags">
+        {%- if t.upcoming %}<span class="talk-pill talk-pill--upcoming">Upcoming</span>{% endif -%}
+        <span class="talk-pill talk-pill--{{ t.kind | downcase }}">{{ t.kind }}</span>
+      </div>
+      <h3 class="talk-card__title">{{ t.institution }}</h3>
+      {%- if t.host %}
+      <p class="talk-card__host">{{ t.host }}</p>
+      {%- endif %}
+      <ul class="talk-card__meta">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>{{ t.date }}</li>
+        {%- if t.location %}
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>{{ t.location }}</li>
+        {%- endif %}
+        {%- if t.url %}
+        <li><a href="{{ t.url }}" class="no-mark-external">Event website&nbsp;&#8599;</a></li>
+        {%- endif %}
+      </ul>
+    </div>
+  </div>
+  {%- if t.photo %}
+  <a class="talk-card__photo no-push-state" href="{{ t.photo_full | default: t.photo | relative_url }}" target="_blank" rel="noopener" aria-label="Open photo from the {{ t.institution }} talk"><img src="{{ t.photo | relative_url }}" alt="Talk at {{ t.institution }}" loading="lazy" decoding="async"{% if t.photo_position %} style="object-position: {{ t.photo_position }};"{% endif %}></a>
+  {%- endif %}
+</article>

@@ -3,9 +3,10 @@
 //   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 // }
 
-// Blog post subtitle: render a post's `description` as a deck sitting directly
+// Post and page subtitle: render the `description` as a deck sitting directly
 // under the title, instead of the theme's small "DESCRIPTION"-labelled note.
-.layout-post .page > header > .note-sm {
+.layout-post .page > header > .note-sm,
+.layout-page .page > header > .note-sm {
   font-size: 1.3rem;
   line-height: 1.35;
   font-style: italic;
@@ -71,17 +72,8 @@ details.learning-box {
   }
 }
 
-// Talks page (/talks/): one card per talk, grouped by year.
-// Cards are rendered by _includes/talk-card.html from _data/talks.yml.
-.talks {
-  margin-top: 1.5rem;
-}
-
-.talks__section {
-  margin-bottom: 2.25rem;
-}
-
-.talks__heading {
+// Uppercase section label with a hairline, shared by the talks and publications pages.
+.section-label {
   display: flex;
   align-items: center;
   gap: 0.9rem;
@@ -98,6 +90,17 @@ details.learning-box {
     height: 1px;
     background: var(--border-color);
   }
+}
+
+// Talks page (/talks/): one card per talk, grouped by year.
+// Cards are rendered by _includes/talk-card.html from _data/talks.yml.
+.talks {
+  margin-top: 1.5rem;
+}
+
+.talks__section,
+.pubs__section {
+  margin-bottom: 2.25rem;
 }
 
 .talks__list {
@@ -340,11 +343,569 @@ details.learning-box {
 
 @media (prefers-reduced-motion: reduce) {
   .talk-card,
-  .talk-card__photo img {
+  .talk-card__photo img,
+  .latest__card,
+  .outreach-card,
+  .outreach-card__image img,
+  .pub,
+  .pub__figure img {
     transition: none;
   }
 
   .talk-pill--upcoming::before {
     animation: none;
+  }
+}
+
+// About page: "Latest" strip and affiliations row (_includes/about-highlights.html).
+.about-block {
+  margin: 2.25rem 0;
+}
+
+.latest {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.latest__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 14px;
+  background: var(--body-bg);
+  color: var(--body-color) !important;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 10px 28px -12px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.latest__kicker {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.latest__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: var(--font-heading, inherit);
+  font-weight: 700;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.latest__meta {
+  font-size: 0.8rem;
+  color: var(--gray-text);
+}
+
+.latest__more {
+  margin-top: auto;
+  padding-top: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.affiliation {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 0.95rem 0.6rem 0.65rem;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px;
+  color: var(--body-color) !important;
+  text-decoration: none;
+  transition: border-color 0.2s ease;
+
+  img {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 0;
+    object-fit: contain;
+    border-radius: 6px;
+    filter: grayscale(1);
+    opacity: 0.75;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+  }
+
+  strong,
+  small {
+    display: block;
+    line-height: 1.3;
+  }
+
+  strong {
+    font-size: 0.9rem;
+  }
+
+  small {
+    font-size: 0.75rem;
+    color: var(--gray-text);
+  }
+
+  &:hover {
+    border-color: var(--accent-color) !important;
+
+    img {
+      filter: none;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 40em) {
+  .latest {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Outreach page (/outreach/): cards rendered from _data/outreach.yml.
+.outreach-hero {
+  margin: 1.25rem 0 2.25rem 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--gray-text);
+  }
+}
+
+.outreach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 1rem;
+}
+
+.outreach-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 14px;
+  background: var(--body-bg);
+  color: var(--body-color) !important;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 10px 28px -12px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.outreach-card__image {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid var(--border-color);
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .outreach-card:hover & img {
+    transform: scale(1.04);
+  }
+}
+
+.outreach-card__image--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 30% 30%, #ff6b6b 0, rgba(255, 107, 107, 0) 45%),
+    linear-gradient(135deg, #3a1c71, #7a1f3d 55%, #b3262e);
+
+  span {
+    color: #fff;
+    font-family: var(--font-heading, inherit);
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.outreach-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.95rem 1.05rem 1.05rem 1.05rem;
+
+  .talk-card__tags {
+    margin-bottom: 0.1rem;
+  }
+}
+
+.talk-pill--audience {
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color) 12%, var(--body-bg));
+}
+
+.outreach-card__title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.outreach-card__summary {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--gray-text);
+}
+
+.outreach-card__meta {
+  margin-top: auto;
+  padding-top: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--gray-text);
+}
+
+// Publications page (/publications/): paper cards rendered by
+// _includes/pub-card.html from _data/publications.yml. Filtering is CSS-only:
+// the hidden radio inputs must stay siblings of .pubs__filters and the sections.
+$pub-topics: ai, qc, sensing, earlier;
+
+.pubs__radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pubs__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 1.75rem 0;
+
+  label {
+    cursor: pointer;
+    padding: 0.32rem 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    font-size: 0.82rem;
+    color: var(--gray-text);
+    background: var(--body-bg);
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    user-select: none;
+
+    span {
+      margin-left: 0.25rem;
+      font-size: 0.72rem;
+      opacity: 0.7;
+    }
+
+    &:hover {
+      border-color: var(--accent-color);
+      color: var(--body-color);
+    }
+  }
+}
+
+@each $t in join(all, $pub-topics) {
+  #pf-#{$t}:checked ~ .pubs__filters label[for="pf-#{$t}"] {
+    border-color: var(--accent-color);
+    background: var(--accent-color);
+    color: #fff;
+  }
+
+  #pf-#{$t}:focus-visible ~ .pubs__filters label[for="pf-#{$t}"] {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+  }
+}
+
+@each $t in ai, qc, sensing {
+  #pf-#{$t}:checked ~ .pubs__selected .pub:not([data-topics~="#{$t}"]),
+  #pf-#{$t}:checked ~ .pubs__earlier {
+    display: none;
+  }
+}
+
+#pf-earlier:checked ~ .pubs__selected {
+  display: none;
+}
+
+.pubs__list {
+  display: grid;
+  gap: 1rem;
+}
+
+.pub {
+  display: flex;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  background: var(--body-bg);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px -12px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.pub__figure {
+  flex: 0 0 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem;
+  background: #fff;
+  border: 0 !important;
+  border-right: 1px solid var(--border-color) !important;
+
+  img {
+    max-width: 100%;
+    max-height: 13rem;
+    width: auto;
+    height: auto;
+    margin: 0;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+  }
+
+  .pub:hover & img {
+    transform: scale(1.03);
+  }
+}
+
+.pub__body {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 1.1rem 1.3rem 1.15rem 1.3rem;
+}
+
+.pub--wide {
+  flex-direction: column;
+
+  .pub__figure {
+    flex-basis: auto;
+    padding: 1rem 1.5rem;
+    border-right: 0 !important;
+    border-bottom: 1px solid var(--border-color) !important;
+
+    img {
+      max-height: 11.5rem;
+    }
+  }
+}
+
+.pub__tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.78rem;
+  color: var(--gray-text);
+}
+
+.pub-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: var(--gray-text);
+  background: var(--gray-bg);
+}
+
+.pub-badge--prl {
+  color: #fff;
+  background: #1f5aa6;
+}
+
+.pub-badge--nature {
+  color: #fff;
+  background: #b5121b;
+}
+
+.pub-badge--preprint {
+  color: #b31b1b;
+  background: rgba(179, 27, 27, 0.1);
+}
+
+.pub-badge--honor {
+  color: #8a5a00;
+  background: rgba(230, 160, 30, 0.18);
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+.dark-mode {
+  .talk-pill--poster,
+  .pub-badge--honor {
+    color: #f3c46b;
+  }
+
+  .pub-badge--preprint {
+    color: #ff9a8f;
+    background: rgba(255, 120, 110, 0.14);
+  }
+}
+
+.pub__year {
+  font-weight: 700;
+}
+
+.pub__field::before {
+  content: "·";
+  margin-right: 0.5rem;
+}
+
+.pub__title {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.pub__authors {
+  margin: 0.35rem 0 0 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--gray-text);
+}
+
+.pub__me {
+  color: var(--body-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.pub__venue {
+  margin: 0.15rem 0 0 0;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.pub__summary {
+  margin: 0.6rem 0 0 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.65rem;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--accent-color) !important;
+    background: color-mix(in srgb, var(--accent-color) 8%, var(--body-bg));
+  }
+}
+
+.pubs__list--compact {
+  gap: 0.7rem;
+
+  .pub__body {
+    padding: 0.9rem 1.15rem;
+  }
+
+  .pub__title {
+    font-size: 1rem;
+  }
+
+  .pub__summary {
+    font-size: 0.84rem;
+    color: var(--gray-text);
+  }
+}
+
+.pubs__note {
+  margin: 0.6rem 0 0 0;
+  font-size: 0.78rem;
+  color: var(--gray-text);
+}
+
+.pubs__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    background: var(--gray-bg);
+    font-size: 0.84rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .pub {
+    flex-direction: column;
+  }
+
+  .pub__figure {
+    flex-basis: auto;
+    border-right: 0 !important;
+    border-bottom: 1px solid var(--border-color) !important;
+
+    img {
+      max-height: 11rem;
+    }
+  }
+
+  .pub__body {
+    padding: 0.95rem 1rem;
   }
 }

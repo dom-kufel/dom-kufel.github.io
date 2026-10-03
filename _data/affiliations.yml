@@ -1,0 +1,15 @@
+# Affiliations row on the About page.
+- name: Harvard University
+  role: PhD · Harvard AI Fellow
+  logo: /assets/img/talks/logos/harvard.png
+  url: https://www.physics.harvard.edu/
+
+- name: Periodic Labs
+  role: Research
+  logo: /assets/img/affiliations/periodic_icon.png
+  url: https://periodic.com/
+
+- name: UCL
+  role: MSci Physics · MRes Quantum Technologies
+  logo: /assets/img/affiliations/ucl.png
+  url: https://www.ucl.ac.uk/

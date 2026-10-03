@@ -1,0 +1,161 @@
+# Publications shown on /publications/, newest first.
+#
+#   title        Paper title
+#   authors      Author list; "D. Kufel" is highlighted automatically, "*" marks equal contribution
+#   year
+#   venue        Full citation shown under the authors (optional for preprints)
+#   badge        Short venue label for the coloured pill: PRL | Nature | Preprint | ...
+#   honor        Optional extra badge, e.g. "Editor's Suggestion"
+#   field        Field label shown on the card
+#   topics       Filter keys: ai, qc, sensing, earlier
+#   summary      One or two sentences
+#   figure       Card image (selected papers only)
+#   figure_wide  true → figure shown as a banner above the text (for wide figures)
+#   links        List of {label, url}
+
+selected:
+  - title: >-
+      Comment on "Spin-1/2 Kagome Heisenberg Antiferromagnet: Machine Learning Discovery
+      of the Spinon Pair-Density-Wave Ground State"
+    authors: H. Kamal, D. Kufel, D. Vu, C. Laumann, N. Yao
+    year: 2026
+    badge: Preprint
+    field: AI & Condensed Matter
+    topics: [ai]
+    summary: >-
+      Comment on a recent machine-learning study of the kagome Heisenberg antiferromagnet. We show
+      that the reported low variational energies arise from broken ergodicity in Metropolis–Hastings
+      sampling thus calling the original claims into question.
+    figure: /assets/img/publications/kagome_comment.jpg
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2605.28861" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2605.28861" }
+
+  - title: Optimizing the dynamical preparation of quantum spin lakes on the ruby lattice
+    authors: D. Vu*, D. Kufel*, J. Kemp, L. Pollet, C. Laumann, N. Yao
+    year: 2026
+    venue: Physical Review Letters 137, 093402
+    badge: PRL
+    field: AI & Condensed Matter
+    topics: [ai]
+    summary: >-
+      Using neural networks we demonstrate that exotic phases can be dynamically prepared in Rydberg
+      quantum simulators at specific length scales, contrary to the equilibrium predictions.
+    figure: /assets/img/publications/quantum_spin_lakes.jpg
+    links:
+      - { label: Journal, url: "https://journals.aps.org/prl/abstract/10.1103/7dnl-6kg2" }
+      - { label: arXiv, url: "https://arxiv.org/abs/2512.09040" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2512.09040" }
+
+  - title: Hardness of recognizing phases of matter
+    authors: T. Schuster*, D. Kufel*, N. Yao, H. Huang
+    year: 2025
+    badge: Preprint
+    field: Quantum Computing & Condensed Matter
+    topics: [qc]
+    summary: >-
+      Proven that distinguishing quantum phases of matter is exponentially hard in correlation length.
+      This sets limits on capabilities of any quantum AI agents for phase recognition task.
+    figure: /assets/img/publications/hardness_phases.jpg
+    figure_wide: true
+    links:
+      - { label: arXiv, url: "https://arxiv.org/abs/2510.08503" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2510.08503" }
+
+  - title: Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond
+    authors: >-
+      W. Wu*, E. Davis*, L. Hughes, B. Ye, Z. Wang, D. Kufel, T. Ono, S. Meynell, M. Block, C. Liu,
+      H. Yang, A. Bleszynski-Jayich, N. Yao
+    year: 2025
+    venue: Nature 646, p. 74–80
+    badge: Nature
+    field: Quantum Sensing
+    topics: [sensing]
+    summary: >-
+      Experimental paper on the first-to-date detection of spin squeezing in a solid state platform.
+    figure: /assets/img/publications/spin_squeezing_nv.jpg
+    figure_wide: true
+    links:
+      - { label: Journal, url: "https://www.nature.com/articles/s41586-025-09524-8" }
+      - { label: arXiv, url: "https://arxiv.org/abs/2503.14585" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2503.14585" }
+
+  - title: Approximately-symmetric neural networks for quantum spin liquids
+    authors: D. Kufel*, J. Kemp*, D. Vu, S. Linsel, C. Laumann, N. Yao
+    year: 2025
+    venue: Physical Review Letters 135, 056702
+    badge: PRL
+    honor: Editor's Suggestion
+    field: AI & Condensed Matter
+    topics: [ai]
+    summary: >-
+      Constructed tailor-made, scalable and interpretable neural network architectures for studying
+      quantum spin liquid problems.
+    figure: /assets/img/publications/approx_symmetric_nn.jpg
+    figure_wide: true
+    links:
+      - { label: Journal, url: "https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph" }
+      - { label: arXiv, url: "https://arxiv.org/abs/2405.17541" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2405.17541" }
+
+earlier:
+  - title: Skier and loop the loop with friction
+    authors: D. Kufel, A. Sokal
+    year: 2022
+    venue: American Journal of Physics 90, 573
+    field: Classical Mechanics
+    summary: >-
+      Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.
+    links:
+      - { label: Journal, url: "https://doi.org/10.1119/5.0095150" }
+      - { label: arXiv, url: "https://arxiv.org/abs/2003.02178" }
+      - { label: PDF, url: "https://arxiv.org/pdf/2003.02178.pdf" }
+
+  - title: Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well
+    authors: D. Kufel, H. Chomet, C. Faria
+    year: 2021
+    venue: "Journal of Physics A: Mathematical and Theoretical 54, 035304"
+    field: Atomic Physics
+    summary: >-
+      Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well
+      potentials by connecting it to a problem of finding roots of some polynomial. Applied this
+      approach to understanding the role of non-adiabatic effects during enhanced ionization.
+    links:
+      - { label: Journal, url: "https://doi.org/10.1088/1751-8121/abd267" }
+      - { label: arXiv, url: "https://arxiv.org/abs/2009.08737" }
+      - { label: PDF, url: "https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf" }
+
+  - title: Online Learning and matching for resource allocation problems
+    authors: A. Boskovic, Q. Chen, D. Kufel, Z. Zhou
+    year: 2019
+    venue: SIAM SIURO vol. 13
+    field: AI
+    summary: >-
+      Devised, provided performance guarantees, and implemented algorithms integrating dual problems in
+      convex optimization with a subclass of reinforcement learning techniques. Applied these
+      algorithms to the traffic-shaping problem.
+    links:
+      - { label: Journal, url: "https://doi.org/10.1137/19S1300534" }
+      - { label: arXiv, url: "https://arxiv.org/abs/1911.07409" }
+      - { label: PDF, url: "https://www.siam.org/Portals/0/Publications/SIURO/Vol13/S130053PDF.pdf?ver=2020-10-13-095206-423" }
+
+  - title: Analytical modelling of temperature effects on AMPA-type synapse
+    authors: D. Kufel, G. Wojcik
+    year: 2018
+    venue: Journal of Computational Neuroscience 44, 379-391
+    field: Computational Neuroscience
+    summary: >-
+      Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain.
+      Simplified the ODEs using some physically-motivated assumptions and shown how the obtained
+      analytical solution faithfully reproduces the results of biological experiments.
+    links:
+      - { label: Journal, url: "https://doi.org/10.1007/s10827-018-0684-x" }
+      - { label: arXiv, url: "https://arxiv.org/abs/1610.00611" }
+      - { label: PDF, url: "https://link.springer.com/content/pdf/10.1007/s10827-018-0684-x.pdf?pdf=button" }
+
+refereeing:
+  - Physical Review Letters (multiple times)
+  - ICML — AI4Science Workshop
+  - Physical Review A
+  - Quantum Information Processing (QIP)
+  - Quantum Computing Theory in Practice (QCTIP)

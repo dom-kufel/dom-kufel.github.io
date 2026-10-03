@@ -5,16 +5,28 @@ description: >
 permalink: /outreach/
 ---
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/img/outreach/american_centre.jpg" alt="Outreach activities" style="max-width: 100%; height: auto; border-radius: 8px;">
-  <p><em>Highlight from an outreach activity (photo courtesy of American Corner in Lublin)</em></p>
+<figure class="outreach-hero">
+  <img src="/assets/img/outreach/american_centre.jpg" alt="Outreach activities">
+  <figcaption>Highlight from an outreach activity (photo courtesy of American Corner in Lublin)</figcaption>
+</figure>
+
+<section class="pubs__section">
+<h2 class="section-label">Talks, workshops &amp; writing</h2>
+<div class="outreach-grid">
+{%- for o in site.data.outreach %}
+<a class="outreach-card" href="{{ o.url | relative_url }}">
+  {%- if o.image %}
+  <span class="outreach-card__image"><img src="{{ o.image | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+  {%- else %}
+  <span class="outreach-card__image outreach-card__image--text"><span>{{ o.icon_text }}</span></span>
+  {%- endif %}
+  <span class="outreach-card__body">
+    <span class="talk-card__tags"><span class="talk-pill">{{ o.kind }}</span><span class="talk-pill talk-pill--audience">{{ o.audience }}</span></span>
+    <span class="outreach-card__title heading">{{ o.title }}</span>
+    <span class="outreach-card__summary">{{ o.summary }}</span>
+    <span class="outreach-card__meta">{{ o.date }} · {{ o.location }}</span>
+  </span>
+</a>
+{%- endfor %}
 </div>
-
-## Some outreach talks I've given
-* [Knots]{:.heading.flip-title} --- Simple introduction to knot theory - targeted for high-schoolers.
-* [Chicken]{:.heading.flip-title} --- "How to cook delicious spherical chicken ft. thermodynamics" - targeted for freshmen.
-* [Tweezers]{:.heading.flip-title} --- Optical tweezers to understand the leading cause of blindness  - targeted for virtually anyone.
-
-[Knots]: 2023-01-29-knot_theory_intro.md
-[Chicken]: 2020-02-21-cooking_chicken.md
-[Tweezers]: 2018-11-21-tweezers_and_retinopathy.md
+</section>

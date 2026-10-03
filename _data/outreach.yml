@@ -1,0 +1,35 @@
+# Outreach cards on /outreach/, newest first.
+#   url       Built URL of the outreach page
+#   image     Card image; without it a gradient tile with `icon_text` is shown
+- title: Quick intro to the knotty subject
+  audience: High-school students
+  kind: Workshop
+  date: December 2022
+  location: Lublin, Poland
+  summary: >-
+    Is one knot harder to untangle than another? A hands-on introduction to knot theory for gifted
+    high-school students.
+  url: /outreach/2023-01-29-knot_theory_intro/
+  image: /assets/img/outreach/thumbs/knots.jpg
+
+- title: How to cook delicious spherical chicken ft. thermodynamics
+  audience: First-year undergraduates
+  kind: Talk
+  date: 2019–2020
+  location: UCL, London
+  summary: >-
+    The heat equation and dimensional analysis, applied to the only problem that matters: cooking a
+    spherical chicken.
+  url: /outreach/2020-02-21-cooking_chicken/
+  image: /assets/img/outreach/thumbs/chicken.jpg
+
+- title: When physicists and doctors meet to resolve the roots of the leading cause of blindness
+  audience: Everyone
+  kind: Article
+  date: November 2018
+  location: UCL, London
+  summary: >-
+    Stretching blood cells with laser light suggests that blindness in diabetes may be caused by
+    stiffer blood cells.
+  url: /outreach/2018-11-21-tweezers_and_retinopathy/
+  icon_text: Optical tweezers

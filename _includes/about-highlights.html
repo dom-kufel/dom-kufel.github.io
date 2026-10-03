@@ -1,0 +1,39 @@
+{%- assign next_talk = site.data.talks | where: "upcoming", true | first -%}
+{%- assign last_talk = site.data.talks | where_exp: "t", "t.upcoming != true" | first -%}
+{%- assign talk = next_talk | default: last_talk -%}
+{%- assign paper = site.data.publications.selected | first -%}
+{%- assign post = site.posts | first -%}
+<section class="about-block">
+<h2 class="section-label">Latest</h2>
+<div class="latest">
+  <a class="latest__card" href="{{ '/talks/' | relative_url }}">
+    <span class="latest__kicker">{% if next_talk %}Upcoming talk{% else %}Recent talk{% endif %}</span>
+    <span class="latest__title heading">{{ talk.institution }}</span>
+    <span class="latest__meta">{{ talk.date }}{% if talk.location %} · {{ talk.location }}{% endif %}</span>
+    <span class="latest__more">All talks &rarr;</span>
+  </a>
+  <a class="latest__card" href="{{ '/publications/' | relative_url }}">
+    <span class="latest__kicker">Latest paper</span>
+    <span class="latest__title heading">{{ paper.title }}</span>
+    <span class="latest__meta">{{ paper.badge }} · {{ paper.year }}</span>
+    <span class="latest__more">All publications &rarr;</span>
+  </a>
+  <a class="latest__card" href="{{ post.url | relative_url }}">
+    <span class="latest__kicker">Latest post</span>
+    <span class="latest__title heading">{{ post.title }}</span>
+    <span class="latest__meta">{{ post.date | date: "%B %Y" }}</span>
+    <span class="latest__more">Read &rarr;</span>
+  </a>
+</div>
+</section>
+<section class="about-block">
+<h2 class="section-label">Affiliations</h2>
+<div class="affiliations">
+  {%- for a in site.data.affiliations %}
+  <a class="affiliation no-mark-external" href="{{ a.url }}">
+    <img src="{{ a.logo | relative_url }}" alt="" loading="lazy" decoding="async">
+    <span><strong>{{ a.name }}</strong><small>{{ a.role }}</small></span>
+  </a>
+  {%- endfor %}
+</div>
+</section>

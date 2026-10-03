@@ -29,5 +29,7 @@ Away from the whiteboard I lift, run, cycle, and get outside. I'm President of t
 
 If you're thinking about autonomous science, quantum many-body physics, or AI for materials, I'd like to hear from you.
 
+{% include about-highlights.html %}
+
 > **Contact:** dkufel [at] g.harvard.edu
 {:.lead}

@@ -1,0 +1,26 @@
+{%- assign p = include.pub -%}
+{%- capture me %}<strong class="pub__me">D. Kufel</strong>{% endcapture -%}
+<article class="pub{% if p.figure_wide %} pub--wide{% endif %}" data-topics="{{ p.topics | join: ' ' }}">
+  {%- if p.figure %}
+  <a class="pub__figure no-push-state no-mark-external" href="{{ p.links[0].url }}" aria-label="{{ p.title | strip_newlines | escape }}"><img src="{{ p.figure | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+  {%- endif %}
+  <div class="pub__body">
+    <div class="pub__tags">
+      {%- if p.badge %}<span class="pub-badge pub-badge--{{ p.badge | slugify }}">{{ p.badge }}</span>{% endif %}
+      {%- if p.honor %}<span class="pub-badge pub-badge--honor">&#9733; {{ p.honor }}</span>{% endif %}
+      <span class="pub__year">{{ p.year }}</span>
+      <span class="pub__field">{{ p.field }}</span>
+    </div>
+    <h3 class="pub__title">{{ p.title }}</h3>
+    <p class="pub__authors">{{ p.authors | replace: "D. Kufel", me }}</p>
+    {%- if p.venue %}
+    <p class="pub__venue">{{ p.venue }}</p>
+    {%- endif %}
+    {%- if p.summary %}
+    <p class="pub__summary">{{ p.summary }}</p>
+    {%- endif %}
+    <div class="pub__links">
+      {%- for l in p.links %}<a class="pub-link no-mark-external" href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
+    </div>
+  </div>
+</article>

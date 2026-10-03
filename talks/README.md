@@ -13,7 +13,7 @@ permalink: /talks/
 <div class="talks">
 {%- if upcoming.size > 0 %}
 <section class="talks__section">
-<h2 class="talks__heading">Upcoming</h2>
+<h2 class="section-label">Upcoming</h2>
 <div class="talks__list">
 {%- for t in upcoming %}{% include talk-card.html talk=t %}{% endfor %}
 </div>
@@ -21,7 +21,7 @@ permalink: /talks/
 {%- endif %}
 {%- for group in past %}
 <section class="talks__section">
-<h2 class="talks__heading">{{ group.name }}</h2>
+<h2 class="section-label">{{ group.name }}</h2>
 <div class="talks__list">
 {%- for t in group.items %}{% include talk-card.html talk=t %}{% endfor %}
 </div>
@@ -29,7 +29,7 @@ permalink: /talks/
 {%- endfor %}
 {%- if recurring.size > 0 %}
 <section class="talks__section">
-<h2 class="talks__heading">Recurring</h2>
+<h2 class="section-label">Recurring</h2>
 <div class="talks__list">
 {%- for t in recurring %}{% include talk-card.html talk=t %}{% endfor %}
 </div>

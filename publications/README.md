@@ -7,139 +7,42 @@ hide_description: true
 permalink: /publications/
 ---
 
-<details>
-<summary>Comment on "Spin-1/2 Kagome Heisenberg Antiferromagnet: Machine Learning Discovery of the Spinon Pair-Density-Wave Ground State"</summary>
-<div>
-    <span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br />
-    <strong>Main points:</strong> Comment on a recent machine-learning study of the kagome Heisenberg antiferromagnet. We show that the reported low variational energies arise from broken ergodicity in Metropolis–Hastings sampling thus calling the original claims into question.</span>
+{%- assign pubs = site.data.publications -%}
+{%- assign n_ai = pubs.selected | where_exp: "p", "p.topics contains 'ai'" | size -%}
+{%- assign n_qc = pubs.selected | where_exp: "p", "p.topics contains 'qc'" | size -%}
+{%- assign n_sensing = pubs.selected | where_exp: "p", "p.topics contains 'sensing'" | size -%}
+{%- assign n_all = pubs.selected.size | plus: pubs.earlier.size -%}
+
+<div class="pubs">
+<input class="pubs__radio" type="radio" name="pubs-filter" id="pf-all" checked>
+<input class="pubs__radio" type="radio" name="pubs-filter" id="pf-ai">
+<input class="pubs__radio" type="radio" name="pubs-filter" id="pf-qc">
+<input class="pubs__radio" type="radio" name="pubs-filter" id="pf-sensing">
+<input class="pubs__radio" type="radio" name="pubs-filter" id="pf-earlier">
+<div class="pubs__filters" role="group" aria-label="Filter publications">
+<label for="pf-all">All <span>{{ n_all }}</span></label>
+<label for="pf-ai">AI &amp; Condensed Matter <span>{{ n_ai }}</span></label>
+<label for="pf-qc">Quantum Computing <span>{{ n_qc }}</span></label>
+<label for="pf-sensing">Quantum Sensing <span>{{ n_sensing }}</span></label>
+<label for="pf-earlier">Earlier work <span>{{ pubs.earlier.size }}</span></label>
 </div>
-</details>
-<p><span style="color:grey">H. Kamal, <ins>D. Kufel</ins>, D. Vu, C. Laumann, N. Yao (2026)</span><br />
-<a href="https://arxiv.org/abs/2605.28861"><em>arXiv:2605.28861</em></a> <a href="https://arxiv.org/pdf/2605.28861">PDF</a></p>
-
-
-<details>
-<summary>Optimizing the dynamical preparation of quantum spin lakes on the ruby lattice</summary>
-<div>
-    <span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br />
-    <strong>Main points:</strong> Using neural networks we demonstrate that exotic phases can be dynamically prepared in Rydberg quantum simulators at specific length scales, contrary to the equilibrium predictions.</span>
+<section class="pubs__section pubs__selected">
+<h2 class="section-label">Selected</h2>
+<div class="pubs__list">
+{%- for p in pubs.selected %}{% include pub-card.html pub=p %}{% endfor %}
 </div>
-</details>
-<p><span style="color:grey">D. Vu*, <ins>D. Kufel*</ins>, J. Kemp, L. Pollet, C. Laumann, N. Yao (2026)</span><br />
-<a href="https://journals.aps.org/prl/abstract/10.1103/7dnl-6kg2"><em>Physical Review Letters 137, 093402</em></a> <a href="https://arxiv.org/abs/2512.09040"><em>arXiv:2512.09040</em></a> <a href="https://arxiv.org/pdf/2512.09040">PDF</a></p>
-
-
-
-<details>
-<summary>Hardness of recognizing phases of matter</summary>
-<div>
-    <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Computing & Condensed Matter <br />
-    <strong>Main points:</strong> Proven that distinguishing quantum phases of matter is exponentially hard in correlation length. This sets limits on capabilities of any quantum AI agents for phase recognition task. </span>
+<p class="pubs__note">* equal contribution</p>
+</section>
+<section class="pubs__section pubs__earlier">
+<h2 class="section-label">Earlier work</h2>
+<div class="pubs__list pubs__list--compact">
+{%- for p in pubs.earlier %}{% include pub-card.html pub=p %}{% endfor %}
 </div>
-</details>
-<p><span style="color:grey">T. Schuster*, <ins>D. Kufel*</ins>, N. Yao, H. Huang (2025)</span><br />
-<a href="https://arxiv.org/abs/2510.08503"><em>arXiv:2510.08503</em></a> <a href="https://arxiv.org/pdf/2510.08503">PDF</a></p>
-
-
-<details>
-<summary>Spin squeezing in an ensemble of nitrogen-vacancy centers in diamond</summary>
-<div>
-    <span style="font-size:0.85em;"><strong>Field:</strong> Quantum Sensing <br />
-    <strong>Main points:</strong> Experimental paper on the first-to-date detection of spin squeezing in a solid state platform.</span>
+</section>
+<section class="pubs__section pubs__refereeing">
+<h2 class="section-label">Refereeing</h2>
+<ul class="pubs__chips">
+{%- for r in pubs.refereeing %}<li>{{ r }}</li>{% endfor %}
+</ul>
+</section>
 </div>
-</details>
-<p><span style="color:grey">W. Wu* , E. Davis* , L. Hughes, B. Ye, Z. Wang, <ins>D. Kufel</ins>, T. Ono, S. Meynell, M. Block, C. Liu, H. Yang, A. Bleszynski-Jayich, N. Yao (2025)</span><br />
-<a href="https://www.nature.com/articles/s41586-025-09524-8"><em>Nature 646, p. 74–80</em></a> <a href="https://arxiv.org/abs/2503.14585"><em>arXiv:2503.14585</em></a> <a href="https://arxiv.org/pdf/2503.14585">PDF</a></p>
-
-
-<details>
-<summary>Approximately-symmetric neural networks for quantum spin liquids </summary>
-<div>
-    <p><span style="font-size:0.85em;"><strong>Field:</strong> AI & Condensed Matter <br /> <strong>Main points:</strong> Constructed tailor-made, scalable and interpretable neural network architectures for studying quantum spin liquid problems.  </span></p>
-  </div>
-</details>
-<p><span style="color:grey"><ins>D. Kufel*</ins>, J. Kemp*, D. Vuy, S. Linsel, C. Laumann, N. Yao (2025)</span><br />
-<a href="https://journals.aps.org/prl/abstract/10.1103/pgnx-11ph"><em>Physical Review Letters 135, 056702 (Editor's Suggestion)</em></a> <a href="https://arxiv.org/abs/2405.17541"><em>arXiv:2405.17541</em></a> <a href="https://arxiv.org/pdf/2405.17541">PDF</a></p>
-
-<details>
-<summary>Skier and loop the loop with friction </summary>
-<div markdown="1">
-<span style="font-size:0.85em;">**Field:** Classical Mechanics <br> **Main points:** Developed analytical solutions to the extension of two ‘classic’ problems in classical mechanics.  </span>
-</div>
-</details>
-<p><span style="color:grey"><ins>D. Kufel</ins>, A. Sokal (2022)</span><br />
-<a href="https://doi.org/10.1119/5.0095150"><em>American Journal of Physics 90, 573</em></a> <a href="https://arxiv.org/abs/2003.02178"><em>arXiv:2003.02178</em></a> <a href="https://arxiv.org/pdf/2003.02178.pdf">PDF</a></p>
-
-<details>
-<summary>Alternative quantisation condition for wavepacket dynamics in a hyperbolic double well</summary>
-<div markdown="1">
-<span style="font-size:0.85em;">**Field:** Atomic Physics <br> **Main points:** Proposed a new analytical way of finding allowed energies in the class of hyperbolic-double well potentials by connecting it to a problem of finding roots of some polynomial. Applied this approach to understanding the role of non-adiabatic effects during enhanced ionization. </span>
-</div>
-</details>
-<p><span style="color:grey"><ins>D. Kufel</ins>, H. Chomet, C. Faria (2021)</span><br />
-<a href="https://doi.org/10.1088/1751-8121/abd267"><em>Journal of Physics A: Mathematical and Theoretical 54, 035304</em></a> <a href="https://arxiv.org/abs/2009.08737"><em>arXiv:2009.08737</em></a> <a href="https://iopscience.iop.org/article/10.1088/1751-8121/abd267/pdf">PDF</a></p>
-
-<details>
-<summary>Online Learning and matching for resource allocation problems </summary>
-<div markdown="1">
-<span style="font-size:0.85em;">**Field:** AI <br> **Main points:** Devised, provided performance guarantees, and implemented algorithms integrating dual problems in convex optimization with a subclass of reinforcement learning techniques. Applied these algorithms to the traffic-shaping problem. </span>
-</div>
-</details>
-<p><span style="color:grey">A. Boskovic, Q. Chen, <ins>D. Kufel</ins>, Z. Zhou (2019)</span><br />
-<a href="https://doi.org/10.1137/19S1300534"><em>SIAM SIURO vol. 13</em></a> <a href="https://arxiv.org/abs/1911.07409"><em>arXiv:1911.07409</em></a> <a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol13/S130053PDF.pdf?ver=2020-10-13-095206-423">PDF</a></p>
-
-<details>
-<summary>Analytical modelling of temperature effects on AMPA-type synapse </summary>
-<div markdown="1">
-<span style="font-size:0.85em;">**Field:** Computational Neuroscience <br> **Main Points:** Used ODE-based modelling for understanding temperature effects on AMPA-type synapses in brain. Simplified the ODEs using some physically-motivated assumptions and shown how the obtained analytical solution faithfully reproduces the results of biological experiments. </span>
-</div>
-</details>
-<p><span style="color:grey"><ins>D. Kufel</ins>, G. Wojcik (2018)</span><br />
-<a href="https://doi.org/10.1007/s10827-018-0684-x"><em>Journal of Computational Neuroscience 44, 379-391</em></a> <a href="https://arxiv.org/abs/1610.00611"><em>arXiv:1610.00611</em></a> <a href="https://link.springer.com/content/pdf/10.1007/s10827-018-0684-x.pdf?pdf=button">PDF</a></p>
-
-
-## Refereeing
-
-<p>I refereed for <em>Physical Review Letters</em> [multiple times], <em>International Conference on Machine Learning (ICML) - AI4Science Workshop</em>, <em>Physical Review A</em>, <em>Quantum Information Processing conference (QIP)</em>, and <em>Quantum Computing Theory in Practice (QCTIP)</em>.</p>
-
-
-<!-- While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
-{:.note}
-
-
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
-{:.related-posts.faded}
-
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
-{:.related-posts.faded}
-
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
-
-[install]: install.md
-[upgrade]: upgrade.md
-[config]: config.md
-[basics]: basics.md
-[writing]: writing.md
-[scripts]: scripts.md
-[build]: build.md
-[advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md -->
-
-
-<!-- <details>
-
- -->

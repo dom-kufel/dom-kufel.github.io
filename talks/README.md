@@ -14,6 +14,14 @@ permalink: /talks/
 ## Recent Talks/Posters (2023+)
 
 <details open>
+<summary>National University of Singapore (Talk, upcoming)</summary>
+<div>
+  <span style="font-size:0.9em;"><strong>Where:</strong> Singapore <br />
+  <strong>When:</strong> October 2026</span>
+</div>
+</details>
+
+<details>
 <summary>European Central Bank (Talk)</summary>
 <div>
   <span style="font-size:0.9em;"><strong>When:</strong> September 2026</span>

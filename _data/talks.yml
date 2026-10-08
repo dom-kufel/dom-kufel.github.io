@@ -21,7 +21,6 @@
   year: 2026
   location: Singapore
   logo: /assets/img/talks/logos/nus.png
-  upcoming: true
 
 - institution: European Central Bank
   kind: Talk
